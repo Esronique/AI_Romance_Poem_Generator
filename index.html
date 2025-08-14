@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/styles.css">
     <title>AI Romance Poem Generator</title>
@@ -21,7 +22,8 @@
             autofocus 
             required 
             autocomplete="off"
-            class="instruction"/>
+            class="instruction"
+            id="user-instruction"/>
             <input 
             type="submit" class="search-button" />
         </form>
